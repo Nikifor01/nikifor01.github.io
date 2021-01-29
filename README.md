@@ -1,2 +1,2 @@
-# Nikifor01.github.io
+# nikifor01.github.io
 Portfolio
