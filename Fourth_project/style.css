@@ -1,0 +1,1050 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #ffc61a;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+section {
+    padding: 70px 180px;
+}
+
+button {
+    padding: 5px 23px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background: none;
+}
+
+
+
+/*===========Header-upper===========*/
+
+.main-header {
+    background-image: url(./images/head-bg.png);
+}
+
+.main-page img {
+    position: relative;
+    top: 120px;
+    left: 55px;
+    width: 80%;
+    height: auto;
+}
+
+.page-head {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.page-para-1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.page-para-2 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.heade {
+    padding: 20px 100px;
+    
+}
+
+.heade ul li a {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: white !important;
+}
+
+.heade ul li a:hover {
+    padding: 5px 10px;
+    background-color: #ffc61a;
+    color: black;
+    border-radius: 15px;
+}
+
+
+/*===========Page===========*/
+
+.head-inp p{
+    margin-bottom: 0;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.head-inp p span {
+    color: #ffc61a;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+}
+
+.form-control-1 {
+    margin-bottom: 25px;
+    width: 100%;
+    border: none;
+    border-bottom: black 1px solid;
+}
+
+.form-control-2 {
+    margin-bottom: 25px;
+    width: 100%;
+    border: none;
+    border-bottom: black 1px solid;
+}
+
+select {
+    margin-bottom: 35px;
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: black 1px solid;
+}
+
+.subm {
+    width: 100%;
+}
+
+.subm:hover {
+    background-color: #ffc61a;
+    color: black;
+}
+
+.booking-btn:hover {
+    background-color: #ffc61a;
+    color: black;
+}
+
+
+
+/*===========Booking===========*/
+
+.booking {
+    background-color: #ffc61a;
+    padding-top: 180px !important;
+}
+
+.booking-head {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.booking-para {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+/*===========Tarifs===========*/
+
+.tarrifs-head-1 {
+    font-size: 28px;
+}
+
+.tarrifs-head-2 {
+    font-size: 35px;
+    color: black;
+}
+
+.card-1 {
+    background-color: #f5f4f2;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.card-2 {
+    background-color: #ffc61a;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.card-3 {
+    background-color: #f5f4f2;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.taxi {
+    position: relative;
+    top: 65px;
+    width: 100%;
+    height: auto;
+}
+
+.tarrifs-head-1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tarrifs-head-2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tarrifs-head-3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tarrifs-para-1 {
+    text-align: center;
+}
+
+.tarrifs-para-2 {
+    text-align: center;
+}
+
+.tarrifs-para-3 {
+    text-align: center;
+}
+
+.price-1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #ffc61a;
+}
+
+.price-2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+
+.price-3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #ffc61a;
+}
+
+.tarrifs-btn-1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.tarrifs-btn-1:hover {
+    background-color: #ffc61a;
+    color: black;
+} 
+
+.tarrifs-btn-2 {
+    display: block;
+    margin: 0 auto;
+}
+
+.tarrifs-btn-2:hover {
+    background-color: white;
+    color: black;
+} 
+
+.tarrifs-btn-3 {
+    display: block;
+    margin: 0 auto;
+}
+
+.tarrifs-btn-3:hover {
+    background-color:  #ffc61a;
+    color: black;
+} 
+
+/*===========Best===========*/
+
+.best {
+    background-image: url(./images/best-bg.png);
+}
+
+.best-head-1 {
+    font-size: 28px;
+}
+
+.best-head-2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.best img {
+    float: left;
+    margin-right: 35px;
+}
+
+.best h4, .best-para {
+    color: white;
+}
+
+.bb {
+    margin-bottom: 50px;
+}
+
+.best-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffc61a;
+    color: black;
+    margin-top: 40px;
+}
+
+.best-button:hover {
+    background-color: black;
+    color: #ffc61a;
+}
+
+
+/*===========Clients===========*/
+
+.clients {
+    padding-top: 70px 180px;
+    background-image: url(./images/clients-bg.png);
+
+}
+
+.clients-head-2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.feedback {
+    background-color: black;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.feedback-para {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.feedback img {
+    float: left;
+    margin-right: 40px;
+}
+
+.client-para-1 {
+    margin-bottom: 0;
+    padding-top: 15px;
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.client-para-2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/*===========Download===========*/
+
+.download{
+    padding-bottom: 0;
+}
+
+
+.download-head-1 {
+    font-size: 28px;
+}
+
+.download-head-2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.big-img {
+    padding-left: 100px;
+}
+
+.download-head-3 {
+    margin-bottom: 25px;
+}
+
+.download-para {
+    margin-bottom: 45px;
+}
+
+.play {
+    margin-right: 45px;
+}
+
+.play:hover {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.playa:hover {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+/*===========Call===========*/
+
+.call {
+    background-color: #ffc61a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.call-para-1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.call-para-2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+/*===========Footer-upper===========*/
+
+.upper {
+    background-image: url(./images/footer.png);
+    padding: 70px 180px;
+}
+
+.upper-head {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.linear {
+    background-color: #ffc61a;
+    height: 6px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.upper-para {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.upper ul {
+    padding-left: 0;
+}
+
+.upper ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.upper ul li a {
+    color: #ffc61a;
+}
+
+.upper ul li a i {
+    font-size: 25px;
+}
+
+.upper ul li a:hover {
+    color: white;
+}
+
+.and-1 {
+    margin-bottom: 15px;
+}
+
+.and-1 i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.and-2 i {
+    margin-right: 15px;
+    font-size: 24px;
+    color: white;
+}
+
+.apple-a {
+    color: #ffc61a;
+}
+
+.and-a {
+    color: #ffc61a;
+}
+
+.apple-a:hover {
+    color: #ffc61a;
+    border-bottom: #ffc61a;
+}
+
+.and-a:hover {
+    color: #ffc61a;
+    border-bottom: #ffc61a;
+}
+
+.place {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.ph {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.ml {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.ar {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.place::before {
+    content: "";
+    height: 32px;
+    width: 32px;
+    background: url(./images/point.png) no-repeat center;
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: none;
+    margin-right: 15px;
+}
+
+.ph::before {
+    content: "";
+    height: 32px;
+    width: 32px;
+    background: url(./images/iphone.png) no-repeat center;
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: none;
+    margin-right: 15px;
+}
+
+.ml::before {
+    content: "";
+    height: 32px;
+    width: 32px;
+    background: url(./images/mail.png) no-repeat center;
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: none;
+    margin-right: 15px;
+}
+
+.ar::before {
+    content: "";
+    height: 32px;
+    width: 32px;
+    background: url(./images/picasw.png) no-repeat center;
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: none;
+    margin-right: 15px;
+}
+
+/*===========Footer-downer===========*/
+
+.downer {
+    background-color: #131313;
+}
+
+.downer-para {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*===========Media===========*/
+
+
+@media only screen and (max-width: 1359px) { 
+    .play {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+    section {
+        padding: 70px 150px;
+    }
+
+    .call-para-1 {
+        font-size: 25px;
+    }
+
+    .call-para-2 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 992px) { 
+    section {
+        padding: 60px 100px;
+    }
+
+    .booking-para {
+        margin-bottom: 50px;
+    }
+
+    .booking-head {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .head-inp p {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 26px;
+    }
+
+    .booking {
+        padding-top: 140px !important;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .booking-btn {
+        margin-bottom: 60px;
+    }
+
+    .downer-para {
+        font-size: 12px;
+    }
+
+    .call-para-1 {
+        font-size: 22px;
+    }
+
+    .call-para-2 {
+        font-size: 40px;
+    }
+
+    .tarrifs-head-1 {
+        font-size: 22px;
+    }
+
+    .tarrifs-head-2 {
+        font-size: 22px;
+    }
+
+    .tarrifs-head-3 {
+        font-size: 22px;
+    }
+
+    .price-1 {  
+        font-size: 32px;
+    }
+
+    .price-2 {
+        font-size: 32px;
+    }
+
+    .price-3 {
+        font-size: 32px;
+    }
+
+    .tarrifs-btn-1 {
+        font-size: 22px;
+    }
+
+    .tarrifs-btn-2 {
+        font-size: 22px;
+    }
+
+    .tarrifs-btn-3 {
+        font-size: 22px;
+    }
+
+    .best-para {
+        font-size: 12px;
+    }
+
+    .best-head {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .best {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .upper-head {
+        font-size: 22px;
+    }
+
+    .upper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 770px) { 
+    .best-para {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .page-head {
+        font-size: 22px;
+    }
+
+    .page-para-1 {
+        font-size: 35px;
+    }
+
+    .page-para-2 {
+        font-size: 24px;
+    }
+
+    .main-page img {
+        top: 80px;
+    }
+
+    section {
+        padding: 50px 90px;
+    }
+
+    .booking-btn {
+        display: block;
+        margin: 0 auto !important;
+        margin-bottom: 80px !important;
+    }
+
+    .downer-para {
+        font-size: 10px;
+    }
+
+    .call-para-1 {
+        font-size: 18px;
+    }
+
+    .call-para-2 {
+        font-size: 35px;
+    }
+
+    .feedback {
+        margin-bottom: 60px;
+    }
+
+    .feedback-para {
+        text-align: center;
+    }
+
+    .big-img {
+        display: none;
+    }
+
+    .play {
+        margin-bottom: 0px;
+    }
+
+    .download {
+        padding-bottom: 50px;
+    }
+
+    .download-head-3 {
+        text-align: center;
+    }
+
+    .download-para {
+        text-align: center;
+    }
+    
+    .best-heads {
+        margin-bottom: 45px;
+    }
+
+    .one, .two, .three {
+        margin-bottom: 80px;
+    }
+
+    .upper-head {
+        text-align: center;
+    }
+
+    .upper-para {
+        text-align: center;
+    }
+
+    .upper ul {
+        text-align: center;
+    }
+
+    .and-1 {
+        text-align: center;
+    }
+
+    .and-2 {
+        text-align: center;
+    }
+
+    .place {
+        text-align: center;
+    }
+
+    .ph {
+        text-align: center;
+    }
+
+    .ml {
+        text-align: center;
+    }
+
+    .ar {
+        text-align: center;
+    }
+
+    .upper {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 679px) { 
+    .play {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .playa {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 624px) { 
+    .best-heads {
+        font-size: 18px;
+    }
+
+    .bb img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 534px) { 
+    .best-heads {
+        font-size: 16px;
+    }
+
+    .bb img {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    .page-head {
+        font-size: 18px;
+    }
+
+    .page-para-1 {
+        font-size: 28px;
+    }
+
+    .page-para-2 {
+        font-size: 20px;
+        letter-spacing: 8px; 
+    }
+
+    .booking-btn {
+        display: block;
+        margin: 0 auto !important;
+        margin-bottom: 60px !important;
+    }
+
+    .call-para-1 {
+        font-size: 15px;
+    }
+
+    .call-para-2 {
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) { 
+    .page-head {
+        font-size: 14px;
+    }
+
+    .page-para-1 {
+        font-size: 24px;
+    }
+
+    .page-para-2 {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 35px 60px;
+    }
+
+    .call-para-2 {
+        font-size: 30px;
+    }
+
+    .best-para {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 410px) { 
+    .page-head {
+        font-size: 12px;
+    }
+
+    .page-para-1 {
+        font-size: 20px;
+    }
+
+    .page-para-2 {
+        font-size: 14px;
+        letter-spacing: 6px; 
+    }
+
+    .main-page img {
+        top: 60px;
+    }
+
+    section {
+        padding: 35px 40px;
+    }
+
+    .booking {
+        padding-top: 110px !important;
+    }
+
+    .main-page img {
+        left: 40px;
+    }
+
+    .call-para-1 {
+        font-size: 14px;
+    }
+
+    .call-para-2 {
+        font-size: 26px;
+    }
+
+    .client-para-1 {
+        font-size: 16px !important;
+    }
+
+    .client-para-1 {
+        font-size: 14px;
+    }
+
+    .client img {
+        margin-right: 10px;
+    }
+
+    .download-head-3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 360px) { 
+    .client img {
+        margin-top: 12px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 352px) { 
+    .bb img {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    
+}
